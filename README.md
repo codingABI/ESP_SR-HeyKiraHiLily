@@ -136,7 +136,7 @@ idf.py build
 >   File "encodings\cp1252.py", line 19, in encode
 > UnicodeEncodeError: 'charmap' codec can't encode characters > in position 0-39: character maps to <undefined>
 > ```
-> you have to enable **Use Unicode UTF-8 for worldwide language support** in Microsoft Windows ![Screenshot for setting](assets/images/UseUnicodeUTF-8forWorldwideLanguageSupport.png) [IDF requirements](https://docs.espressif.com/projects/esp-idf/en/v5.5.5/esp32s3/get-started/windows-setup.html)
+> you have to enable **Use Unicode UTF-8 for worldwide language support** in Microsoft Windows ![Screenshot for setting](assets/images/UseUnicodeUTF-8forWorldwideLanguageSupport@W2025.png) [IDF requirements](https://docs.espressif.com/projects/esp-idf/en/v5.5.5/esp32s3/get-started/windows-setup.html)
 > 
 
 After compiling without errors the new **srmodels.bin** can be found under _C:\esp-skainet-master\examples\en_speech_commands_recognition\build\srmodels_
