@@ -1,6 +1,6 @@
 # ESP_SR-HeyKiraHiLily
 
-The ESP_SR-HeyKiraHiLily is an offline Speech Recognition ESP_SR example for the Arduino IDE and an ESP32-S3 with a [way](#who-to-make-a-custom-srmodelsbin) to change the Wake Words.
+The ESP_SR-HeyKiraHiLily is an offline Speech Recognition ESP_SR example for the Arduino IDE and an ESP32-S3 with a [way](#how-to-make-a-custom-srmodelsbin) to change the Wake Words.
 
 ![ESP_SR-HeyKiraHiLily](assets/images/ESP_SR-HeyKiraHiLily.png)
 
@@ -11,7 +11,7 @@ ESP_SR-HeyKiraHiLily uses two Wake Words "Hey Kira" and "Hi Lily". You could als
 
 To do this the ESP_SR-HeyKiraHiLily needs a custom **srmodels.bin** file. 
 > [!IMPORTANT] 
-> You have to [create this srmodels.bin by yourself](#who-to-make-a-custom-srmodelsbin).
+> You have to [create this srmodels.bin by yourself](#how-to-make-a-custom-srmodelsbin).
 
 The ESP_SR-HeyKiraHiLily has a passive buzzer to give some feedback to the user:
 
@@ -67,7 +67,7 @@ The sketch was written with the Arduino IDE and can be found in [here](ESP_SR-He
 | Waiting for a Wake Word  | 275  |
 | Waiting for a command | 370  |
 
-### Who to make a custom srmodels.bin?
+### How to make a custom srmodels.bin?
 
 Download and install **esp-idf-tools-setup-offline.5.5.5.exe** from https://github.com/espressif/idf-installer/releases
 
