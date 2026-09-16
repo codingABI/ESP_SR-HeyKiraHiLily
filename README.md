@@ -5,7 +5,7 @@ The ESP_SR-HeyKiraHiLily is an offline Speech Recognition ESP_SR example for the
 ![ESP_SR-HeyKiraHiLily](assets/images/ESP_SR-HeyKiraHiLily.png)
 
 > [!NOTE]
-> arduino-esp32 for the Arduino IDE provides an builtin speech recognition example "ESP_SR\Basic.ino". ESP_SR-HeyKiraHiLily based on this Arduino sketch, but Basic.ino uses a preconfigured srmodels.bin file with one fixed Wake Word "Hi ESP". ESP_SR-HeyKiraHiLily shows you a way to create a custom srmodels.bin and select Wake Words.
+> arduino-esp32 for the Arduino IDE provides a builtin speech recognition example "ESP_SR\Basic.ino". ESP_SR-HeyKiraHiLily based on this Arduino sketch, but Basic.ino uses a preconfigured srmodels.bin file with one fixed Wake Word "Hi ESP". ESP_SR-HeyKiraHiLily shows you a way to create a custom srmodels.bin and select Wake Words.
 
 ESP_SR-HeyKiraHiLily uses two Wake Words "Hey Kira" and "Hi Lily". You could also use other [Wake Works provided by Espressif](#espressif-wake-words-from-esp-skainet-masterzip-downloaded-14092026).
 
