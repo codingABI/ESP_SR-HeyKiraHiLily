@@ -144,7 +144,7 @@ After compiling without errors the new **srmodels.bin** can be found under _C:\e
 Make a backup of the original **srmodels.bin** under 
 _C:\Users\\%username\%\AppData\Local\Arduino15\packages\esp32\tools\esp32s3-libs\3.3.11\esp_sr_ (or _portable\packages\esp32\tools\esp32s3-libs\3.3.11\esp_sr_  if you use Arduino IDE 1.x in portable mode)  and replace the existing file with your new **srmodels.bin**
 
-Now you can compile the [Arduino-Sketch](/ESP_SR-HeyKiraHiLili/ESP_SR-HeyKiraHiLili.ino) with your Arduino IDE and after flashing to the esp32 the serial output on the esp32 should show
+Now you can compile the [Arduino-Sketch](/ESP_SR-HeyKiraHiLily/ESP_SR-HeyKiraHiLily.ino) with your Arduino IDE and after flashing to the esp32 the serial output on the esp32 should show
 
 ```
 MC Quantized vadnet1:vadnet1_mediumv1_Speech_1_0.5_0.1, min speech:128 ms, min noise:992 ms, mode:0, threshold:0.500, channel:1, tigger:v1 (May 25 2026 15:51:02) 
