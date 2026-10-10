@@ -47,7 +47,7 @@ This example is licensed under the terms of CC0 [Copyright (c) 2026 codingABI](L
 - Passive buzzer
 
 > [!WARNING]
-> A standard ESP32-WROOM has too less flash memory for the ESP_SR-HeyKiraHiLily
+> You need an ESP32-S3 with 16 MB flash memory for the ESP_SR-HeyKiraHiLily
 
 ### Used Arduino development environment
 - Arduino IDE 1.8.19 or 2.3.10
